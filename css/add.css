@@ -1,0 +1,83 @@
+* {margin: 0;box-sizing: content-box}
+.main {background-color: #373c42;overflow: hidden}
+.main .social {float: left}
+.main .social .fa {background-color: #4c555e;border-radius: 50%;width: 35px;height: 35px;color: #fff;text-align: center;margin-top: 8px;
+margin-bottom: 8px;line-height: 2.1;margin-left: 5px;}
+.main .social .fa-linkedin:hover {background-color: #114f8e}
+.main .social .fa-twitter:hover {background-color: #31b5c5}
+.main .social .fa-pinterest:hover {background-color: #c8232c}
+.main .social .fa-google-plus:hover {background-color: red}
+.main .social .fa-rss:hover {background-color: #ca7c0a}
+.main .social div {display: inline-block;color: #fff}
+.main .nav {float: right}
+.main .nav ul {margin-top: 0px;padding: 15px}
+.main .nav ul li {list-style: none;float: left;margin-left: 5px}
+.main .nav ul li:after {content: " |";color: #CCC}
+.main .nav ul li:last-child:after {content: ''}
+.main .nav ul li a {text-decoration: none;color: #999999}
+nav {background-color: #4c555e;overflow: hidden;height: 280px}
+nav #logo {float: left}
+nav #logo h1 {margin: 40px  20px auto;color: #fff}
+nav #logo span {margin-left: 20px;color: #999999}
+nav #search {float: right;margin: 45px  20px}
+input[type="search"] {background: rgba(255,255,255,0.1);padding: 10px 20px;color: #ffffff;border: 0;border-radius: 4px 0 0 4px}
+nav #search button {background-color: #31363c;color: #fff;padding: 10px 15px;border: 0;border-radius: 0 4px 4px 0;
+margin-left: -5px;text-transform: uppercase}
+.container {width: 1250px;margin:-130px auto;background-color: #fff;height: 800px;border-radius: 4px 4px 0 0}
+.container header {background-color: #373C42}
+.container header ul {padding: 17px 0 37px 0}
+.container header ul li {list-style: none;float: left}
+.container header ul li a {text-decoration: none;color: #fff;padding: 17px 15px 20px 17px}
+.container header ul li a:hover {background-color: #202326}
+.container .slider {z-index: 2;width: 92%;margin: auto;margin-top: 40px;border: 1px solid;padding: 10px;height: 500px;position: relative}
+.container img {width: 100%;height: 100%;}
+.container .all .move {z-index: }
+.container .all .move ul {z-index: 3;margin-top: -50px;float: right;list-style: none;position: relative;margin-right: 65px}
+.container .all article {background: rgba(0, 0, 0, 0.6);margin-top: -100px;position: absolute;z-index: 4;width: 45%;margin-left: 70px;color: #fff;padding: 15px}
+.container .all .move ul li {width: 15px;height: 15px;border: 3px solid #fff;display: inline-block;cursor: pointer;border-radius: 50%}
+.container .all .move ul li.active,
+.container .all .move ul li:hover {background-color: #fff}
+.container2 {width: 1177px;margin: auto;margin-top: 100px}
+.container2 .all-socail {overflow: hidden}
+.container2 .all-socail > div {width: 23%;float: left;margin-left: 23px}
+.container2 .all-socail .fa {font-size: 70px;text-align: center;color: #4c555e;display: block;margin-bottom: 20px}
+.container2 .all-socail h3 {line-height: 2;text-align: center;color: #4c555e}
+.container2 .all-socail p {font-size: 17px;line-height: 1.5;text-align: center;color: #7f7d77}
+.container2 .pragraph hr {border: 1px solid #e2e2e2}
+.container2 .pragraph q {display: block;line-height: 2;margin: auto;text-align: center;width: 50%;margin-top: 15px;margin-bottom: 15px;
+color: #4c555e}
+/* Start Slider bottom */
+.container2 .slider-bottom {overflow: hidden}
+.container2 .slider-bottom > div {width: 23%;float: left;margin-left: 23px}
+.container2 .slider-bottom h4 {line-height: 2;color: #4c555e}
+.container2 .slider-bottom p {font-size: 17px;line-height: 1.5;color: #7f7d77}
+/* End Slider bottom */
+.h1 hr {margin-top: 50px;border: 3px solid #e2e2e2}
+.size {background-color: #ededed;margin-top: 130px}
+.size .container {background-color: #ededed;height: auto;border-radius: 0}
+.size .container .navpar {padding-top: 30px;overflow: hidden}
+.size .container .navpar .div1 {width: 30%;padding-bottom: 30px;float: left;overflow: hidden}
+.size .container .navpar .div1 .about-me h4 {margin-bottom: 30px;color:#7f7d77}
+.size .container .navpar .div1 .about-me p {line-height: 1.5;color:#7f7d77;margin-bottom: 10px}
+.size .container .navpar .div1 .about-me a {text-decoration: none;color: #000000}
+.size .container .navpar .div1 .about-me2 h4 {margin-top: 30px;color:#7f7d77}
+.size .container .navpar .div1 .about-me2 span {color:#7f7d77;font-size: 13px}
+.size .container .navpar .div1 .about-me2 p {line-height: 1.5;color:#7f7d77;margin-top: 10px;margin-bottom: 10px}
+.size .container .navpar .div1 .about-me2 a {text-decoration: none;color: #000000}
+.size .container .navpar .div2 {padding-bottom: 30px;float: left;width: 30%;margin-left: 50px;}
+.size .container .navpar .div2 h4 {margin-bottom: 30px;color:#7f7d77}
+.size .container .navpar .div2 a {text-decoration: none;color: #000000;transition: all .3s ease-in-out}
+.size .container .navpar .div2 a:hover {padding: 10px 20px}
+.size .container .navpar .div2 hr {margin: 10px 0 0 10px;color:#ddd}
+.size .container .navpar .div3 {padding-bottom: 30px;float: left;width: 30%;margin-left: 50px;}
+.size .container .navpar .div3 h4 {margin-top: 5px;color:#7f7d77;margin-bottom: 30px}
+.size .container .navpar .div3 p {line-height: 1.5;color:#7f7d77;margin-top: 10px;margin-bottom: 10px}
+.size .container .navpar .div3 input[type="text"] {display: block;margin-bottom: 15px;width: 100%;border: 0;border-radius: 5px;padding: 10px}
+.size .container .navpar .div3 input[type="email"] {display: block;width: 100%;margin-bottom: 10px;border: 0;border-radius: 5px;padding: 10px}
+.size .container .navpar .div3 button {padding: 10px 15px;border: 0;color: #fff;background-color: #31363c;border-radius: 5px;font-size: 15px;text-transform: uppercase;margin-bottom: 30px}
+.size .container .navpar .div3 span {color:#7f7d77}
+.size .container hr {color: #fff}
+.size .container .copyright {padding-bottom: 3px;height: 35px}
+.size .container .copyright span:first-of-type {color:#7f7d77}
+.size .container .copyright span:last-of-type {color:#7f7d77;float: right}
+.h2 hr {border: 1px solid #fff;margin-top: 75px;box-shadow: 0 1px 10px}
